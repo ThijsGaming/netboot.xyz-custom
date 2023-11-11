@@ -4,6 +4,9 @@
 ###
 
 :start
-kernel https://boot.netboot.xyz/memdisk iso raw initrd https://github.com/ChimeraOS/install-media/releases/download/2023-07-06_69ce628/chimeraos-2023.07.06-x86_64.iso boot
+echo Hello world!
+sleep 10
+goto custom_exit
+
 :custom_exit
 exit 0
